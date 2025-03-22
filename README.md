@@ -84,7 +84,7 @@ In essence, the automated tests developed in `/api-tests` runs the AWS Lambda fu
 - **Postman tests:** *Runs pre-selected tests of the exported Postman JSON file via shell scripts*
    - Covers files in `/api-tests`: *postman-tests.json*, *postman-tests.sh*,  *data-manager.sh*
 
-![api-shell-tests](readme-pictures-1/12. api-tests-shell-json-architecture.PNG)
+![api-shell-tests](readme-pictures-1/12.%20api-tests-shell-json-architecture.PNG)
 
 One problem that I encountered in the development of the shell-script-tests was that POST requests with the 'curl' command would only let me pass a body with fixed values. The moment I passed variables as the values of the JSON body a syntax error was induced. I then researched work arounds to this and found that you can use the content in a .json file to define the body of the request. In turn, I coupled this with my previous Bash experiences in my prior projects and manipulated the .json file in accordance to the desired values of the body. However, it wasn't until one of my later projects (my first [AI & Generative AI Project](https://gitlab.com/jex-projects/mrjex/-/tree/main/projects/2.%20spare-time/11.%20AWS%20Bedrock%20Generative%20AI?ref_type=heads) with AWS that I learned the quote-syntax for defining variables in this way without having to utilize a separate .json file)
 
