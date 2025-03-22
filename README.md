@@ -21,31 +21,31 @@ During 23rd-26th July 2024 I worked on this project to gain knowledge about Mach
 ## Sagemaker Prediction Project
 
 
-![architecture](readme-pictures-1/1. architecture.PNG)
+![architecture](readme-pictures-1/1.%20architecture.PNG)
 
 
 1) Set up SageMaker
 
 *Notebook instance:*
-![notebooks](readme-pictures-1/2. sagemaker-notebooks.PNG)
+![notebooks](readme-pictures-1/2.%20sagemaker-notebooks.PNG)
 
 *Endpoint:*
-![endpoint](readme-pictures-1/4. sagemaker-endpoint.PNG)
+![endpoint](readme-pictures-1/4.%20sagemaker-endpoint.PNG)
 
 
-2) Setup AWS Lambda Function
+1) Setup AWS Lambda Function
 
 *Lambda Function:*
-![lamba-function](readme-pictures-1/6. lambda-func2.PNG)
+![lamba-function](readme-pictures-1/6.%20lambda-func2.PNG)
 
 
-3) Setup Amazon API Gateway
+1) Setup Amazon API Gateway
 
 *Connect Lambda to Gateway:*
-![gateway-connect](readme-pictures-1/7. restful-api-gateway1.PNG)
+![gateway-connect](readme-pictures-1/7.%20restful-api-gateway1.PNG)
 
 
-4) Test the architecture
+1) Test the architecture
 
 Note that I mapped the flower-types as follows (for more info on dataset check [Purpose of Project](#purpose-of-project)):
 - 0.0:   -->   'Iris Setosa'
@@ -54,7 +54,7 @@ Note that I mapped the flower-types as follows (for more info on dataset check [
 
 
 *Successful RESTFUL API response:*
-![successful-response](readme-pictures-1/8. restful-api-gateway3.PNG)
+![successful-response](readme-pictures-1/8.%20restful-api-gateway3.PNG)
 
 
 ## Purpose of Project
@@ -75,7 +75,7 @@ And the expected result returned would be `Iris-setosa`
 
 In essence, the automated tests developed in `/api-tests` runs the AWS Lambda function that connects to the Sagemaker endpoint. Below are the two types of automated tests that I developed:
 
-![api-test-results](readme-pictures-1/11. api-tests-results.PNG)
+![api-test-results](readme-pictures-1/11.%20api-tests-results.PNG)
 
 
 - **Shell tests:** *Randomize in the range (1-150) such that the resulting number is representative of the row of data to be tested*
