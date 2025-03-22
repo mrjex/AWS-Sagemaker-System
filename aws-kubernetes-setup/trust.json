@@ -1,0 +1,22 @@
+{
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+            "Effect": "Allow",
+            "Principal": {
+                "Federated": "arn:aws:iam::230627120160:oidc-provider/oidc.eks.eu-north-1.amazonaws.com/id/D763459E13A97427A53A5EDB8892E3EA"
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+                "StringEquals": {
+                "oidc.eks.eu-north-1.amazonaws.com/id/D763459E13A97427A53A5EDB8892E3EA:aud": "sts.amazonaws.com",
+                "oidc.eks.eu-north-1.amazonaws.com/id/D763459E13A97427A53A5EDB8892E3EA:sub": [
+                    "system:serviceaccount:ack-system:ack-sagemaker-controller",
+                    "system:serviceaccount:ack-system:ack-applicationautoscaling-controller"
+                ]
+                }
+            }
+            }
+        ]
+        }
+        

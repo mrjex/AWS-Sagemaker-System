@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "5bcd5ff8-4328-4405-af29-26ddb505f938",
+		"name": "ML-API-Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36295915"
+	},
+	"item": [
+		{
+			"name": "Test1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'x1': 7.0, 'x2': 3.2, 'x3': 4.7, 'x4': 1.4, 'flower-type': 'Iris-versicolor'}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://z9it6xnflj.execute-api.eu-north-1.amazonaws.com/dev",
+					"protocol": "https",
+					"host": [
+						"z9it6xnflj",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'x1': 5.7, 'x2': 3.0, 'x3': 4.2, 'x4': 1.2, 'flower-type': 'Iris-versicolor'}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://z9it6xnflj.execute-api.eu-north-1.amazonaws.com/dev",
+					"protocol": "https",
+					"host": [
+						"z9it6xnflj",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'x1': 6.3, 'x2': 2.7, 'x3': 4.9, 'x4': 1.8, 'flower-type': 'Iris-virginica'}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://z9it6xnflj.execute-api.eu-north-1.amazonaws.com/dev",
+					"protocol": "https",
+					"host": [
+						"z9it6xnflj",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'x1': 5.7, 'x2': 4.4, 'x3': 1.5, 'x4': 0.4, 'flower-type': 'Iris-setosa'}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://z9it6xnflj.execute-api.eu-north-1.amazonaws.com/dev",
+					"protocol": "https",
+					"host": [
+						"z9it6xnflj",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'x1': 5.1, 'x2': 3.8, 'x3': 1.9, 'x4': 0.4, 'flower-type': 'Iris-setosa'}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://z9it6xnflj.execute-api.eu-north-1.amazonaws.com/dev",
+					"protocol": "https",
+					"host": [
+						"z9it6xnflj",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'x1': 6.9, 'x2': 3.1, 'x3': 5.4, 'x4': 2.1, 'flower-type': 'Iris-virginica'}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://z9it6xnflj.execute-api.eu-north-1.amazonaws.com/dev",
+					"protocol": "https",
+					"host": [
+						"z9it6xnflj",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
