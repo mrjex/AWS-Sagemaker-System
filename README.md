@@ -35,7 +35,7 @@ During July 23-26, 2024, I developed this project to explore Machine Learning de
 
 The solution integrates multiple AWS services into a seamless ML pipeline:
 
-![architecture](readme-pictures-1/1.%20architecture.PNG)
+![architecture](readme-pictures/1.%20architecture.PNG)
 
 Key Components:
 - **SageMaker Notebook**: Development environment for ML models
@@ -48,20 +48,20 @@ Key Components:
 1. **SageMaker Setup**
    
    *Notebook Instance:*
-   ![notebooks](readme-pictures-1/2.%20sagemaker-notebooks.PNG)
+   ![notebooks](readme-pictures/2.%20sagemaker-notebooks.PNG)
 
    *Endpoint Configuration:*
-   ![endpoint](readme-pictures-1/4.%20sagemaker-endpoint.PNG)
+   ![endpoint](readme-pictures/4.%20sagemaker-endpoint.PNG)
 
 2. **Lambda Integration**
    
    *Function Configuration:*
-   ![lamba-function](readme-pictures-1/6.%20lambda-func2.PNG)
+   ![lamba-function](readme-pictures/6.%20lambda-func2.PNG)
 
 3. **API Gateway Configuration**
    
    *Lambda Connection:*
-   ![gateway-connect](readme-pictures-1/7.%20restful-api-gateway1.PNG)
+   ![gateway-connect](readme-pictures/7.%20restful-api-gateway1.PNG)
 
 ## 🎯 Project Purpose
 
@@ -93,13 +93,13 @@ The model maps predictions to three flower types:
 ```
 
 *Successful API Response:*
-![successful-response](readme-pictures-1/8.%20restful-api-gateway3.PNG)
+![successful-response](readme-pictures/8.%20restful-api-gateway3.PNG)
 
 ## 🧪 Testing Framework
 
 Our comprehensive testing suite includes:
 
-![api-test-results](readme-pictures-1/11.%20api-tests-results.PNG)
+![api-test-results](readme-pictures/11.%20api-tests-results.PNG)
 
 ### 🔄 Automated Tests
 1. **Shell Tests**
@@ -112,7 +112,7 @@ Our comprehensive testing suite includes:
    - Automated execution via shell scripts
    - Comprehensive API validation
 
-![api-shell-tests](readme-pictures-1/12.%20api-tests-shell-json-architecture.PNG)
+![api-shell-tests](readme-pictures/12.%20api-tests-shell-json-architecture.PNG)
 
 ## 🚢 Kubernetes Integration
 
@@ -149,7 +149,3 @@ Our comprehensive testing suite includes:
 - CloudWatch integration for API performance monitoring
 - Detailed metrics and logging
 - Performance optimization insights
-
----
-
-*Built with AWS SageMaker and Python by Joel Mattsson*
