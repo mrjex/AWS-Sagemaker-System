@@ -1,6 +1,6 @@
 # AWS SageMaker ML System
 
-> Leveraging AWS SageMaker for Scalable Machine Learning Model Deployment
+> Using AWS SageMaker for Scalable Machine Learning Model Deployment
 
 [![AWS](https://img.shields.io/badge/AWS-Powered-orange)](https://aws.amazon.com/)
 [![SageMaker](https://img.shields.io/badge/SageMaker-ML-blue)](https://aws.amazon.com/sagemaker/)
@@ -12,20 +12,12 @@
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [System Architecture](#system-architecture)
-    - [Implementation Details](#implementation-details)
   - [Project Purpose](#project-purpose)
     - [Data Format](#data-format)
     - [Model Classification](#model-classification)
     - [Example Request](#example-request)
   - [Testing Framework](#testing-framework)
     - [Automated Tests](#automated-tests)
-  - [Kubernetes Integration](#kubernetes-integration)
-    - [Key Features](#key-features)
-    - [Deployment Options](#deployment-options)
-  - [My Related Projects](#my-related-projects)
-    - [Python Notebooks](#python-notebooks)
-    - [AI \& ML Projects](#ai--ml-projects)
-  - [Monitoring \& Logging](#monitoring--logging)
 
 ## Overview
 
@@ -43,25 +35,6 @@ Key Components:
 - **Lambda Function**: Request processing and model interaction
 - **API Gateway**: RESTful API management
 
-### Implementation Details
-
-1. **SageMaker Setup**
-   
-   *Notebook Instance:*
-   ![notebooks](readme-pictures/2.%20sagemaker-notebooks.PNG)
-
-   *Endpoint Configuration:*
-   ![endpoint](readme-pictures/4.%20sagemaker-endpoint.PNG)
-
-2. **Lambda Integration**
-   
-   *Function Configuration:*
-   ![lamba-function](readme-pictures/6.%20lambda-func2.PNG)
-
-3. **API Gateway Configuration**
-   
-   *Lambda Connection:*
-   ![gateway-connect](readme-pictures/7.%20restful-api-gateway1.PNG)
 
 ## Project Purpose
 
@@ -113,39 +86,3 @@ Our comprehensive testing suite includes:
    - Comprehensive API validation
 
 ![api-shell-tests](readme-pictures/12.%20api-tests-shell-json-architecture.PNG)
-
-## Kubernetes Integration
-
-### Key Features
-- **SageMaker Operators for Kubernetes**
-  - Workflow management
-  - Distributed training
-  - Scalable inference endpoints
-
-### Deployment Options
-1. **Training Workflows**
-   - Custom resource definitions
-   - kubectl integration
-   - Automated provisioning
-
-2. **Inference Endpoints**
-   - Elastic scaling
-   - Framework support (TensorFlow, PyTorch, MXNet)
-   - YAML configuration
-
-## My Related Projects
-
-### Python Notebooks
-- [US Political Data Visualization](https://github.com/mrjex/US-Political-and-Societal-Data-Visualization)
-- [ML Clustering System](https://github.com/mrjex/Machine-Learning-Clustering-System)
-
-### AI & ML Projects
-- [Neural Network Classification](https://github.com/mrjex/Neural-Network-Image-Classification)
-- [AI Classifiers](https://github.com/mrjex/Artificial-Intelligence-Classifiers)
-- [AI Clusters](https://github.com/mrjex/Artificial-Intelligence-Clusters)
-
-## Monitoring & Logging
-
-- CloudWatch integration for API performance monitoring
-- Detailed metrics and logging
-- Performance optimization insights
